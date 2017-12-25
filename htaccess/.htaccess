@@ -1,0 +1,10 @@
+# Snippet to force SSL access in a website.
+# If you have some SSL certificate, you can guarantee to your visitors
+# a secure access to your website, even if the visitor enter with http://
+# and not https://
+# If you haven't a security certificate, check Let's Encrypt! It's a free,
+# automated, and open certificate authority (https://letsencrypt.org/).
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
