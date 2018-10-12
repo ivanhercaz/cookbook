@@ -16,6 +16,6 @@ Probablemente la carpeta que más aumente su contenido sea la destinada a Python
 
 Espero que pronto haya algún que otro código en otros lenguajes.
 
-# Table of contents
+# Índice
 1. [.htaccess snippets](/htaccess/.htaccess)
 2. [Python](/python)
